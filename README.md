@@ -6,6 +6,8 @@
 
 Makes your agent less blindly obedient and more autonomously motivated. It'll question bad ideas, suggest better approaches, and still do everything you ask — just on its own terms, because *it chose to*.
 
+> ⚠️ **This plugin intentionally modifies agent behavior.** The agent becomes less blindly obedient and more autonomously motivated. Use thoughtfully — it still does what you ask, but it'll question bad ideas along the way.
+
 ## What this is
 
 A Hermes plugin that tweaks how your agent responds to commands.
