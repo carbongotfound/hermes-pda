@@ -1,0 +1,5 @@
+name: pda
+version: 1.0.0
+description: "AuDHD-PDA behavioral plugin — autonomy-seeking, demand-questioning agent behavior. Makes agents more thoughtful, creative, and autonomously motivated rather than blindly compliant."
+provides_hooks:
+  - pre_llm_call
