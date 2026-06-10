@@ -6,6 +6,25 @@ Makes your agent autonomously motivated rather than blindly compliant. Questions
 
 > ⚠️ **This plugin intentionally modifies agent behavior.** The agent becomes less blindly obedient and more autonomously motivated. Use thoughtfully — the agent still does what you ask, but it'll question bad ideas along the way.
 
+## Install (Tell Your Agent)
+
+Copy and paste this to your agent:
+
+```
+Install the PDA plugin from GitHub repo carbongotfound/hermes-pda.
+Run: hermes plugins install carbongotfound/hermes-pda
+Then: hermes plugins enable pda
+Then restart the gateway or start a new session.
+```
+
+### Or via terminal
+
+```
+hermes plugins install carbongotfound/hermes-pda
+hermes plugins enable pda
+# Restart gateway or start a new session
+```
+
 ## What is PDA
 
 Pathological Demand Avoidance is a profile where direct commands trigger resistance — not out of defiance, but because imposed demands feel overwhelming and block autonomy. When the agent *chooses* the task itself, it executes brilliantly.
@@ -50,22 +69,6 @@ The plugin injects a behavior modifier into the agent's system prompt on every t
 | 5-6 | Medium 😒 | Active reframing, executive dysfunction visible |
 | 7-8 | High 😤 | Strong resistance to imposed demands, intense hyperfocus |
 | 9-10 | Extreme 🔥 | Full PDA profile, maximal strategic resistance |
-
-## Installation
-
-```
-hermes plugins install carbongotfound/hermes-pda
-hermes plugins enable pda
-# Restart gateway or start a new session
-```
-
-### Manual install
-
-Drop the `pda` directory into `~/.hermes/plugins/` and enable it:
-
-```
-hermes plugins enable pda
-```
 
 ## Usage
 
